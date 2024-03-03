@@ -26,3 +26,4 @@ resource "aws_instance" "web" {
 resource "aws_key_pair" "kattpa" {
   key_name   = "terra"
   public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDI/9qXVi3POnze1MJfv+mVk/c5COJmK2cV7dVL5k3lwRW9xxzXlhPTXKQAUwQJHvjwhNzbtglPgaiIklU4TwSsykYfz8OsoQa2ZiToINBB3eqkLdkVgWrtYrOIT6ChrL+fUoBom7az9EebWVsQQYpIH5qQAa8iNkKIvt4VGTeMaeMEnJvd+S7v4lk1A/P4TVLQ+NiMlw5VPUcNCxUAJoDSl2Gg+OzrYsfBe+fWFWCTKupevOKXRm3MnbCqpo3yrtrA4/jfjqxh7NkUzDemEW3oZ3rkVX8rnKfyEvOEZyDAM7FfBYwVbW2bEq1hbMmAMhs5IyOrJkxp/qb74j6Dcjq+K0pUFCNrLqLRPZWkYsMgq74g/opkREoAeMztxxMPoDvtyOLUP9jzRG29MSQ0of8lW38pitIOrrrxsBW7IHs1IIVYyNi7gJq3deYbFz8Bkc+hEvpw7E0Sg0CTIjV3GN4ORnyhIyN9Yk0/oXO04YE481jbkkQLTbyO2EQD4KbqYlk= mahen@Agrofincare"
+}
