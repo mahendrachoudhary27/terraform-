@@ -4,7 +4,7 @@ provider "aws" {
   secret_key = "Rxz2VDCkNpn3JseCILfSHRI5eWNi33DiOTsf43kR"
 }
 resource "aws_instance" "web" {
-  ami           = "ami-04708942c263d8190"
+  ami           = "ami-05a5bb48beb785bf1"
   instance_type = "t2.micro"
   key_name      = "terra"
   user_data = <<-EOF
