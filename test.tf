@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "ap-south-1"
-  access_key = "AKIAS3FILAAGN5K47ZNS"
-  secret_key = "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"
+  access_key = "AKIAS3FILAAGMNMXRUXL"
+  secret_key = "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"
 }
 resource "aws_instance" "web" {
   ami           = "ami-05a5bb48beb785bf1"
