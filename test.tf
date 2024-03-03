@@ -18,7 +18,7 @@ resource "aws_instance" "web" {
                sudo systemctl restart httpd
                EOF
   tags = {
-    Name = "salt"
+    Name = "terraform"
 
 
   }
